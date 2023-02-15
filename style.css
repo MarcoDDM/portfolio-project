@@ -111,6 +111,7 @@
 }
 
 .social-icons {
+  list-style-type: none;
   position: relative;
   display: flex;
   flex-direction: row;
