@@ -83,27 +83,31 @@
 }
 
 .headline h2 {
-  /* Supporting Text */
-
   width: 327px;
   height: 27px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Theme 3 / Primary 4 */
-
   color: #fff5e1;
-
-  /* Inside auto layout */
-
   flex: none;
   flex-grow: 0;
+}
+
+.headline p {
+  width: 327px;
+  height: 123px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  margin-bottom: 0px;
+  margin-top: 0;
 }
