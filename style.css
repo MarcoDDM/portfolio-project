@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 92px;
+
+  /* Theme 3 / Neutral 2 */
+
+  background: #3c3a39;
+}
+
+.logo {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 101px;
+  height: 44px;
+  left: 12px;
+  top: calc(50% - 44px / 2);
+  text-decoration: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 100%;
+  height: 440px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
+}
+
+.headline h1 {
+  width: 327px;
+  height: 124px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: -16px;
+  flex: none;
+  flex-grow: 0;
+}
+
+.headline h2 {
+  width: 327px;
+  height: 27px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  flex-grow: 0;
+}
+
+.background {
+  position: absolute;
+  top: 290px;
+  margin-left: 200px;
+}
+
+.headline p {
+  width: 327px;
+  height: 123px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.social-icons {
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+}
