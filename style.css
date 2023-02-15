@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
+
 .navbar {
   position: absolute;
   width: 100%;
@@ -11,7 +13,7 @@
 }
 
 .logo {
-  font-family: "Roboto";
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -46,4 +48,44 @@
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  left: 0px;
+  top: 92px;
+
+  background: #1c1a19;
+}
+
+.headline h1 {
+  width: 327px;
+  height: 124px;
+
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+
+  letter-spacing: 0.37px;
+
+  /* Theme 3 / Primary 1 */
+
+  color: #ff6b00;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
