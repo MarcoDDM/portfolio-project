@@ -5,7 +5,7 @@
   <img src="soyMarco.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Project README</b></h3>
+  <h3><b>Marco Almada Portfolio | README</b></h3>
 
 </div>
 
@@ -15,7 +15,16 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,21 +34,134 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Microverse <a name="about-project"></a>
+# 📖 Microverse Portfolio <a name="about-project"></a>
 
-This is a small project to build a professional portfolio
+**Portfolio** is a project for Microverse bootcamp to learn about Mobile first and responsive design...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Portfolio created with html, css and javascript
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="#">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Github</summary>
+  <ul>
+    <li><a href="#">Github</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **Mobile version**
+- **Headline**
+- **Introduction to the portfolio**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [N/A]
+- **N/A**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,11 +169,21 @@ Portfolio created with html, css and javascript
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
 - Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/marcoalmadaar)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Responsive design**
+- **Desktop version**
+- **Contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +201,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can give us a star!
+> Write a message to encourage readers to support your project
+
+If you like this project you can follow me and give the project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +211,7 @@ If you like this project you can give us a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to all my coding partners and the microverse's code reviewers.
+I would like to thank to my coding partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +219,7 @@ I would like to thank to all my coding partners and the microverse's code review
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
