@@ -75,17 +75,35 @@
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-  /* or 114% */
-
   letter-spacing: 0.37px;
-
-  /* Theme 3 / Primary 1 */
-
   color: #ff6b00;
+  margin-bottom: -16px;
+  flex: none;
+  flex-grow: 0;
+}
+
+.headline h2 {
+  /* Supporting Text */
+
+  width: 327px;
+  height: 27px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Theme 3 / Primary 4 */
+
+  color: #fff5e1;
 
   /* Inside auto layout */
 
   flex: none;
-  order: 0;
   flex-grow: 0;
 }
