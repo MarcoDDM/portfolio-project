@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
 
 .navbar {
   position: absolute;
@@ -136,4 +137,97 @@
   position: relative;
   top: 840px;
   margin-left: 16px;
+}
+
+.card-1 {
+  width: 327px;
+  height: 237px;
+  background: url(images/card-project-1.png);
+  /* align-content: center; */
+  flex-wrap: inherit;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+}
+
+.card-1 h3 {
+  width: 327px;
+  height: 36px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  position: inherit;
+  top: 220px;
+}
+
+.card-1 p {
+  width: 327px;
+  height: 147px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  top: 280px;
+  position: relative;
+}
+
+.keywords {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  height: 40px;
+  width: 316px;
+  position: absolute;
+  top: 440px;
+}
+
+.keywords li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #091e42;
+  background: #ffffff;
+  border: 1px solid #8993a4;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.button-card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  position: absolute;
+  top: 535px;
+  left: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  border: none;
 }
