@@ -139,7 +139,21 @@
   margin-left: 16px;
 }
 
+.works img {
+  width: 327px;
+  position: absolute;
+  top: 100px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  top: 180px;
+}
+
 .card-1 {
+  grid-row: 1;
   width: 327px;
   height: 237px;
   background: url(images/card-project-1.png);
@@ -148,7 +162,8 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 100px;
+  top: 180px;
+  left: 0;
 }
 
 .card-1 h3 {
@@ -230,4 +245,26 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   border: none;
+}
+
+.card {
+  grid-row: 2;
+  position: absolute;
+  background-image: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url("images/card-project.png");
+  left: 0;
+  top: 783px;
+  width: 327px;
+  height: 386px;
+}
+
+.card h3 {
+  position: absolute;
+  font-family: "Crete Round", serif;
+  left: 0;
+  width: 275px;
 }
