@@ -248,16 +248,14 @@
 }
 
 .card {
-  grid-row: 2;
   position: absolute;
   background-image: linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgba(38, 38, 38, 0) -1.25%,
+      rgba(38, 38, 38, 0.9) 123%
     ),
-    url("images/card-project.png");
+    url(images/card-project.png);
   left: 0;
-  top: 783px;
   width: 327px;
   height: 386px;
 }
@@ -265,6 +263,97 @@
 .card h3 {
   position: absolute;
   font-family: "Crete Round", serif;
-  left: 0;
+  font-size: 30px;
+  color: white;
+  top: 43px;
+  left: 20px;
   width: 275px;
+}
+
+.card p {
+  position: absolute;
+  width: 295px;
+  height: 87px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  top: 170px;
+  left: 20px;
+  color: white;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  height: 40px;
+  width: 316px;
+  position: absolute;
+  top: 280px;
+  left: 20px;
+}
+
+.card li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #ffffff;
+  background: #ffffff24;
+  /* border: 1px solid #8993a4; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card button {
+  position: absolute;
+  height: 48px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 382px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 10px;
+  background: #ff6b00;
+  border: 0;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.one {
+  top: 783px;
+}
+
+.two {
+  top: 1245px;
+}
+
+.three {
+  top: 1707px;
+}
+
+.four {
+  top: 2169px;
+}
+
+.five {
+  top: 2631px;
+}
+
+.six {
+  top: 3093px;
 }
