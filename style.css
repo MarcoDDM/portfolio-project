@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Meera+Inimai&display=swap");
 
 .navbar {
   position: absolute;
@@ -127,14 +124,13 @@
 .works {
   width: 327px;
   height: 83px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 100;
   font-size: 22px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  display: flex;
   position: relative;
   top: 840px;
   margin-left: 16px;
@@ -158,6 +154,7 @@
   width: 327px;
   height: 237px;
   background: url(images/card-project-1.png);
+
   /* align-content: center; */
   flex-wrap: inherit;
   display: flex;
@@ -170,7 +167,7 @@
 .card-1 h3 {
   width: 327px;
   height: 36px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -186,7 +183,7 @@
 .card-1 p {
   width: 327px;
   height: 147px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -200,7 +197,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 5px;
   height: 40px;
   width: 316px;
@@ -217,7 +214,7 @@
   font-family: "Inter", serif;
   height: 30px;
   color: #091e42;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #8993a4;
   font-weight: 400;
   font-size: 18px;
@@ -235,22 +232,22 @@
   flex: none;
   position: absolute;
   top: 535px;
-  left: 0px;
-  font-family: "Inter";
+  left: 0;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   border: none;
 }
 
 .card {
   position: absolute;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) -1.25%,
       rgba(38, 38, 38, 0.9) 123%
@@ -275,7 +272,7 @@
   position: absolute;
   width: 295px;
   height: 87px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -289,7 +286,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 5px;
   height: 40px;
   width: 316px;
@@ -306,8 +303,9 @@
   padding: 10px 12px;
   font-family: "Inter", serif;
   height: 30px;
-  color: #ffffff;
+  color: #fff;
   background: #ffffff24;
+
   /* border: 1px solid #8993a4; */
   font-weight: 400;
   font-size: 18px;
@@ -316,9 +314,9 @@
 .card button {
   position: absolute;
   height: 48px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   top: 382px;
   display: flex;
   flex-direction: row;
@@ -364,8 +362,9 @@
   position: absolute;
   width: 100%;
   height: 1901px;
-  left: 0px;
+  left: 0;
   top: 4500px;
+
   /* Theme 3 / Neutral 1 */
   background: #1c1a19;
 }
@@ -374,7 +373,7 @@
   width: 327px;
   position: relative;
   height: 79px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -387,7 +386,7 @@
 .about p {
   width: 327px;
   height: 148px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -432,7 +431,7 @@
   align-items: center;
   justify-content: center;
   align-self: center;
-  right: 0px;
+  right: 0;
   left: 25px;
 }
 
@@ -440,34 +439,31 @@
   position: absolute;
   color: white;
   font-size: 33px;
-  left: 29px;
   top: 608px;
   display: grid;
   text-align: center;
-  right: 0px;
-  left: 0.375;
-  left: 0px;
-  font-family: Meera Inimai;
+  right: 0;
+  left: 0;
+  font-family: "Meera Inimai", serif;
 }
 
 .languages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0 12px;
   gap: 8px;
   width: 186px;
   height: 216px;
   color: white;
   list-style-type: none;
   font-size: 23px;
-  font-family: "Meera Inimai";
+  font-family: "Meera Inimai", serif;
   position: absolute;
   text-align: center;
-  right: 0px;
+  right: 0;
   left: 77px;
   justify-content: center;
-  align-items: stretch;
   top: 736px;
 }
 
@@ -479,20 +475,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0 12px;
   gap: 8px;
   width: 186px;
   height: 216px;
   color: white;
   list-style-type: none;
   font-size: 23px;
-  font-family: "Meera Inimai";
+  font-family: "Meera Inimai", serif;
   position: absolute;
   text-align: center;
-  right: 0px;
+  right: 0;
   left: 77px;
   justify-content: center;
-  align-items: stretch;
   top: 1000px;
 }
 
@@ -504,20 +499,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0 12px;
   gap: 8px;
   width: 186px;
   height: 216px;
   color: white;
   list-style-type: none;
   font-size: 23px;
-  font-family: "Meera Inimai";
+  font-family: "Meera Inimai", serif;
   position: absolute;
   text-align: center;
-  right: 0px;
+  right: 0;
   left: 77px;
   justify-content: center;
-  align-items: stretch;
   top: 1300px;
 }
 
