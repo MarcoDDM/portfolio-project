@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
 
 .navbar {
   position: absolute;
@@ -433,4 +434,93 @@
   align-self: center;
   right: 0px;
   left: 25px;
+}
+
+.about h3 {
+  position: absolute;
+  color: white;
+  font-size: 33px;
+  left: 29px;
+  top: 608px;
+  display: grid;
+  text-align: center;
+  right: 0px;
+  left: 0.375;
+  left: 0px;
+  font-family: Meera Inimai;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
+  color: white;
+  list-style-type: none;
+  font-size: 23px;
+  font-family: "Meera Inimai";
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  left: 77px;
+  justify-content: center;
+  align-items: stretch;
+  top: 736px;
+}
+
+.languages h3 {
+  top: -70px;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
+  color: white;
+  list-style-type: none;
+  font-size: 23px;
+  font-family: "Meera Inimai";
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  left: 77px;
+  justify-content: center;
+  align-items: stretch;
+  top: 1000px;
+}
+
+.frameworks h3 {
+  top: -70px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
+  color: white;
+  list-style-type: none;
+  font-size: 23px;
+  font-family: "Meera Inimai";
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  left: 77px;
+  justify-content: center;
+  align-items: stretch;
+  top: 1300px;
+}
+
+.skills h3 {
+  top: -70px;
 }
