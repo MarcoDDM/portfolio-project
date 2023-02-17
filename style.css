@@ -381,6 +381,7 @@
   letter-spacing: 0.37px;
   color: #ff6b00;
   left: 20px;
+  margin-top: 120px;
 }
 
 .about p {
@@ -394,7 +395,7 @@
   color: #f4f5f7;
   position: absolute;
   left: 20px;
-  top: 130px;
+  top: 200px;
 }
 
 .about button {
@@ -412,21 +413,21 @@
   color: white;
   font-size: 17px;
   font-weight: 700;
-  top: 310px;
+  top: 390px;
 }
 
 .about .img-about {
   width: 159px;
   height: 270px;
   position: absolute;
-  top: 266px;
+  top: 360px;
   left: 216px;
 }
 
 .white-line {
   position: absolute;
   z-index: 1;
-  top: 558px;
+  top: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -439,12 +440,12 @@
   position: absolute;
   color: white;
   font-size: 33px;
-  top: 608px;
   display: grid;
   text-align: center;
   right: 0;
   left: 0;
   font-family: "Meera Inimai", serif;
+  top: 100px;
 }
 
 .languages {
@@ -464,11 +465,16 @@
   right: 0;
   left: 77px;
   justify-content: center;
-  top: 736px;
+  top: 790px;
+  margin-bottom: 5px;
+}
+
+.languages li {
+  margin-bottom: 15px;
 }
 
 .languages h3 {
-  top: -70px;
+  top: -90px;
 }
 
 .languages h3::before {
@@ -501,11 +507,11 @@
   right: 0;
   left: 77px;
   justify-content: center;
-  top: 1000px;
+  top: 1090px;
 }
 
 .frameworks h3 {
-  top: -70px;
+  top: -110px;
 }
 
 .frameworks h3::before {
@@ -518,6 +524,10 @@
   position: absolute;
   top: 6px;
   left: -20px;
+}
+
+.frameworks li {
+  margin-bottom: 15px;
 }
 
 .skills {
@@ -537,11 +547,11 @@
   right: 0;
   left: 77px;
   justify-content: center;
-  top: 1300px;
+  top: 1440px;
 }
 
 .skills h3 {
-  top: -70px;
+  top: -110px;
 }
 
 .skills h3::before {
@@ -555,4 +565,8 @@
   top: 3px;
   left: 23px;
   border-radius: 50%;
+}
+
+.skills li {
+  margin-bottom: 15px;
 }
