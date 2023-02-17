@@ -357,3 +357,60 @@
 .six {
   top: 3093px;
 }
+
+.about {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 1901px;
+  left: 0px;
+  top: 4500px;
+  /* Theme 3 / Neutral 1 */
+  background: #1c1a19;
+}
+
+.about h2 {
+  width: 327px;
+  position: relative;
+  height: 79px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  left: 20px;
+}
+
+.about p {
+  width: 327px;
+  height: 148px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  position: absolute;
+  left: 20px;
+  top: 130px;
+}
+
+.about button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  position: absolute;
+  left: 20px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  top: 310px;
+}
