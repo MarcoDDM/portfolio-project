@@ -414,3 +414,23 @@
   font-weight: 700;
   top: 310px;
 }
+
+.about .img-about {
+  width: 159px;
+  height: 270px;
+  position: absolute;
+  top: 266px;
+  left: 216px;
+}
+
+.white-line {
+  position: absolute;
+  z-index: 1;
+  top: 558px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  right: 0px;
+  left: 25px;
+}
