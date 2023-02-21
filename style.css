@@ -677,11 +677,3 @@
   margin-left: 86px;
   top: 900px;
 }
-
-.black-line {
-  display: flex;
-  position: absolute;
-  top: 972px;
-  margin-left: 118px;
-  gap: 10px;
-}
