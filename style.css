@@ -584,11 +584,98 @@
   gap: 5px;
   width: 327px;
   height: 216px;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+}
+
+.form .form-start {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  position: absolute;
+  margin-left: 24px;
+  top: 492px;
+}
+
+.form .form-start .name {
+  height: 48px;
+  padding-left: 10px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form .form-start .email {
+  height: 48px;
+  padding-left: 10px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form .form-start .message {
+  height: 114px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form .form-start .start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  text-align: center;
+  border: none;
+  margin-left: 96px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.social-icons-footer {
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  filter: brightness(50%);
+  margin-left: 86px;
+  top: 900px;
+}
+
+.black-line {
+  display: flex;
+  position: absolute;
+  top: 972px;
+  margin-left: 118px;
+  gap: 10px;
 }
