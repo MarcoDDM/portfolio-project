@@ -698,7 +698,8 @@ body {
 @media (min-width: 768px) {
   .logo,
   .hamburger,
-  .background {
+  .background,
+  .img-about {
     display: none;
   }
 
@@ -1017,5 +1018,42 @@ body {
 
   .six:hover {
     background-image: url(images/card2.png);
+  }
+
+  .about {
+    top: 2620px;
+    background-image: url(images/background-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
+    width: 100%;
+  }
+
+  .about h2 {
+    left: 160px;
+    margin-left: 0;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .about p {
+    left: 160px;
+    width: 548px;
+  }
+
+  .about button {
+    left: 160px;
+    top: 348px;
+  }
+
+  .about button:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .about button:active {
+    color: #f4f1f0;
+    background: #e05304;
   }
 }
