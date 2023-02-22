@@ -163,8 +163,6 @@ body {
   width: 327px;
   height: 237px;
   background: url(images/card-project-1.png);
-
-  /* align-content: center; */
   flex-wrap: inherit;
   display: flex;
   justify-content: center;
@@ -927,12 +925,97 @@ body {
   .card button {
     display: none;
   }
+  .card:hover button {
+    display: flex;
+    top: 388px;
+  }
 
   .card ul {
     top: 345px;
   }
 
+  .card:hover h3,
+  .card:hover p,
+  .card:hover ul {
+    opacity: 0;
+  }
+
   .card:hover {
-    background-image: url(images/card-project.png);
+    background-image: url(images/card1.png);
+  }
+
+  .two {
+    top: 782px;
+    left: 521px;
+    background-image: linear-gradient(
+        178deg,
+        rgb(0 0 0 / 40%) -1.25%,
+        hsl(0deg 0% 0%) 123%
+      ),
+      url(images/card3.png);
+  }
+
+  .two:hover {
+    background-image: url(images/card3.png);
+  }
+
+  .three {
+    top: 782px;
+    left: 909px;
+    background-image: linear-gradient(
+        178deg,
+        rgb(0 0 0 / 40%) -1.25%,
+        hsl(0deg 0% 0%) 123%
+      ),
+      url(images/card2.png);
+  }
+
+  .three:hover {
+    background-image: url(images/card2.png);
+  }
+
+  .four {
+    top: 1255px;
+    left: 135px;
+    background-image: linear-gradient(
+        178deg,
+        rgb(0 0 0 / 40%) -1.25%,
+        hsl(0deg 0% 0%) 123%
+      ),
+      url(images/card2.png);
+  }
+
+  .four:hover {
+    background-image: url(images/card2.png);
+  }
+
+  .five {
+    top: 1255px;
+    left: 521px;
+    background-image: linear-gradient(
+        178deg,
+        rgb(0 0 0 / 40%) -1.25%,
+        hsl(0deg 0% 0%) 123%
+      ),
+      url(images/card2.png);
+  }
+
+  .five:hover {
+    background-image: url(images/card2.png);
+  }
+
+  .six {
+    top: 1255px;
+    left: 909px;
+    background-image: linear-gradient(
+        178deg,
+        rgb(0 0 0 / 40%) -1.25%,
+        hsl(0deg 0% 0%) 123%
+      ),
+      url(images/card2.png);
+  }
+
+  .six:hover {
+    background-image: url(images/card2.png);
   }
 }
