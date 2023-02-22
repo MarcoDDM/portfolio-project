@@ -253,7 +253,8 @@ body {
 
 .card {
   position: absolute;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) -1.25%,
       rgba(38, 38, 38, 0.9) 123%
@@ -685,7 +686,7 @@ body {
   top: 900px;
 }
 
-/*MOBILE*/
+/* MOBILE */
 
 @media (max-width: 768px) {
   a.logo-desktop,
@@ -694,7 +695,7 @@ body {
   }
 }
 
-/*DESKTOP*/
+/* DESKTOP */
 @media (min-width: 768px) {
   .logo,
   .hamburger,
@@ -709,7 +710,6 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-    display: flex;
     text-align: center;
     color: #fff;
     padding: 10px 12px;
@@ -717,7 +717,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
     gap: 10px;
     position: absolute;
     width: 156px;
@@ -731,7 +730,7 @@ body {
     flex-direction: row;
     align-items: center;
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     gap: 8px;
     position: absolute;
     width: 255px;
@@ -741,10 +740,9 @@ body {
   }
 
   .navbar-desktop li {
-    width: 59px;
     height: 20px;
-    color: #ffffff;
-    font-family: "Inter";
+    color: #fff;
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -755,8 +753,8 @@ body {
   }
 
   .navbar-desktop .envelope {
-    color: #ffffff;
-    font-family: "Inter";
+    color: #fff;
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 100;
     font-size: 30px;
@@ -868,16 +866,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 12px;
-    width: 297px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 0;
-    gap: 5px;
     height: 40px;
+    gap: 5px;
     width: 316px;
     position: absolute;
     top: 224px;
@@ -926,6 +917,17 @@ body {
   .card button {
     display: none;
   }
+
+  .about p {
+    left: 160px;
+    width: 548px;
+  }
+
+  .about button {
+    left: 160px;
+    top: 348px;
+  }
+
   .card:hover button {
     display: flex;
     top: 388px;
@@ -948,7 +950,8 @@ body {
   .two {
     top: 782px;
     left: 521px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -963,7 +966,8 @@ body {
   .three {
     top: 782px;
     left: 909px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -978,7 +982,8 @@ body {
   .four {
     top: 1255px;
     left: 135px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -993,7 +998,8 @@ body {
   .five {
     top: 1255px;
     left: 521px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1008,7 +1014,8 @@ body {
   .six {
     top: 1255px;
     left: 909px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1035,16 +1042,6 @@ body {
     margin-left: 0;
     font-size: 72px;
     line-height: 82px;
-  }
-
-  .about p {
-    left: 160px;
-    width: 548px;
-  }
-
-  .about button {
-    left: 160px;
-    top: 348px;
   }
 
   .about button:hover {
