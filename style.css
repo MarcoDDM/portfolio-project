@@ -1022,10 +1022,10 @@ body {
 
   .about {
     top: 2620px;
-    background-image: url(images/background-desktop.png);
+    background-image: url(images/about-img.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: top;
+    background-position-y: 100px;
     width: 100%;
   }
 
@@ -1055,5 +1055,13 @@ body {
   .about button:active {
     color: #f4f1f0;
     background: #e05304;
+  }
+
+  .white-line {
+    position: absolute;
+    width: 1256px;
+    height: 2px;
+    left: 150px;
+    top: 530px;
   }
 }
