@@ -67,8 +67,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Mobile version**
 - **Headline**
 - **Introduction to the portfolio**
@@ -105,14 +103,8 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+cd my-folder
+git clone git@github.com:myaccount/my-project.git
 
 ### Install
 
@@ -200,8 +192,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project you can follow me and give the project a star.
 
