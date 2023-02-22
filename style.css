@@ -690,8 +690,75 @@ body {
 /*MOBILE*/
 
 @media (max-width: 768px) {
+  .navbar-desktop,
+  a.logo-desktop {
+    display: none;
+  }
 }
 
 /*DESKTOP*/
 @media (min-width: 768px) {
+  .logo,
+  .hamburger {
+    display: none;
+  }
+}
+
+.logo-desktop {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+  position: absolute;
+  width: 156px;
+  height: 40px;
+  left: 142px;
+  top: 16px;
+}
+
+.navbar-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 255px;
+  height: 40px;
+  right: 194px;
+  top: calc(50% - 60px / 2);
+}
+
+.navbar-desktop li {
+  width: 59px;
+  height: 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+  gap: 10px;
+  width: 83px;
+}
+
+.navbar-desktop .envelope {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
 }
