@@ -871,10 +871,8 @@ body {
     align-items: center;
     padding: 0px;
     gap: 12px;
-
     width: 297px;
     height: 40px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -906,5 +904,35 @@ body {
   .button-card1:active {
     color: #f4f1f0;
     background: #e05304;
+  }
+
+  .card {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 369px;
+    height: 435px;
+    left: 135px;
+  }
+
+  .card h3 {
+    top: 100px;
+  }
+
+  .card p {
+    width: 320px;
+    top: 240px;
+  }
+
+  .card button {
+    display: none;
+  }
+
+  .card ul {
+    top: 345px;
+  }
+
+  .card:hover {
+    background-image: url(images/card-project.png);
   }
 }
