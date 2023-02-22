@@ -686,3 +686,12 @@ body {
   margin-left: 86px;
   top: 900px;
 }
+
+/*MOBILE*/
+
+@media (max-width: 768px) {
+}
+
+/*DESKTOP*/
+@media (min-width: 768px) {
+}
