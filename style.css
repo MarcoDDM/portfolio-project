@@ -171,6 +171,11 @@ body {
   left: 0;
 }
 
+.card-1:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
 .card-1 h3 {
   width: 327px;
   height: 36px;
@@ -253,8 +258,7 @@ body {
 
 .card {
   position: absolute;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) -1.25%,
       rgba(38, 38, 38, 0.9) 123%
@@ -263,6 +267,11 @@ body {
   left: 0;
   width: 327px;
   height: 386px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 .card h3 {
@@ -950,8 +959,7 @@ body {
   .two {
     top: 782px;
     left: 521px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -966,8 +974,7 @@ body {
   .three {
     top: 782px;
     left: 909px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -982,8 +989,7 @@ body {
   .four {
     top: 1255px;
     left: 135px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -998,8 +1004,7 @@ body {
   .five {
     top: 1255px;
     left: 521px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1014,8 +1019,7 @@ body {
   .six {
     top: 1255px;
     left: 909px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
