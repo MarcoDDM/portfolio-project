@@ -186,8 +186,8 @@ body {
 }
 
 .card-1:hover {
-  transform: scale(1.2);
-  transition: all 0.7s;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .card-1 h3 {
