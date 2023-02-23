@@ -62,6 +62,49 @@ body {
   border-radius: 8px;
 }
 
+.card li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #fff;
+  background: #ffffff24;
+
+  /* border: 1px solid #8993a4; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.keywords li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #091e42;
+  background: #fff;
+  border: 1px solid #8993a4;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.languages li {
+  margin-bottom: 15px;
+}
+
+.frameworks li {
+  margin-bottom: 15px;
+}
+
+.skills li {
+  margin-bottom: 15px;
+}
+
 .navbar-desktop li:hover {
   transform: scale(1.1);
   color: #f55800;
@@ -231,21 +274,6 @@ body {
   top: 440px;
 }
 
-.keywords li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  font-family: "Inter", serif;
-  height: 30px;
-  color: #091e42;
-  background: #fff;
-  border: 1px solid #8993a4;
-  font-weight: 400;
-  font-size: 18px;
-}
-
 .button-card1 {
   display: flex;
   flex-direction: row;
@@ -272,7 +300,8 @@ body {
 
 .card {
   position: absolute;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) -1.25%,
       rgba(38, 38, 38, 0.9) 123%
@@ -323,22 +352,6 @@ body {
   position: absolute;
   top: 280px;
   left: 20px;
-}
-
-.card li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  font-family: "Inter", serif;
-  height: 30px;
-  color: #fff;
-  background: #ffffff24;
-
-  /* border: 1px solid #8993a4; */
-  font-weight: 400;
-  font-size: 18px;
 }
 
 .card button {
@@ -499,10 +512,6 @@ body {
   margin-bottom: 5px;
 }
 
-.languages li {
-  margin-bottom: 15px;
-}
-
 .languages h3 {
   top: -90px;
 }
@@ -556,10 +565,6 @@ body {
   left: -20px;
 }
 
-.frameworks li {
-  margin-bottom: 15px;
-}
-
 .skills {
   display: flex;
   flex-direction: column;
@@ -595,10 +600,6 @@ body {
   top: 3px;
   left: 23px;
   border-radius: 50%;
-}
-
-.skills li {
-  margin-bottom: 15px;
 }
 
 .form {
@@ -975,7 +976,8 @@ body {
   .two {
     top: 782px;
     left: 521px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -990,7 +992,8 @@ body {
   .three {
     top: 782px;
     left: 909px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1005,7 +1008,8 @@ body {
   .four {
     top: 1255px;
     left: 135px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1020,7 +1024,8 @@ body {
   .five {
     top: 1255px;
     left: 521px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1035,7 +1040,8 @@ body {
   .six {
     top: 1255px;
     left: 909px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
