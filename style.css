@@ -910,6 +910,7 @@ body {
 
   .button-card1:hover {
     color: #f55800;
+    cursor: pointer;
     background: #fff5e1;
     border: 1px solid #f55800;
   }
@@ -952,6 +953,7 @@ body {
   }
 
   .card:hover button {
+    cursor: pointer;
     display: flex;
     top: 388px;
   }
@@ -1064,6 +1066,7 @@ body {
 
   .about button:hover {
     color: #f55800;
+    cursor: pointer;
     background: #fff5e1;
     border: 1px solid #f55800;
   }
@@ -1143,6 +1146,7 @@ body {
   }
 
   .form-start .start:hover {
+    cursor: pointer;
     color: #f55800;
     background: #fff5e1;
     border: 1px solid #f55800;
