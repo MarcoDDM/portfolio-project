@@ -42,6 +42,13 @@ body {
   text-decoration: none;
 }
 
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #f55800;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 .hamburger {
   display: flex;
   flex-direction: row;
@@ -53,6 +60,13 @@ body {
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+}
+
+.navbar-desktop li:hover {
+  transform: scale(1.1);
+  color: #f55800;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .headline {
