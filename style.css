@@ -42,6 +42,13 @@ body {
   text-decoration: none;
 }
 
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #f55800;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 .hamburger {
   display: flex;
   flex-direction: row;
@@ -53,6 +60,56 @@ body {
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+}
+
+.card li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #fff;
+  background: #ffffff24;
+
+  /* border: 1px solid #8993a4; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.keywords li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", serif;
+  height: 30px;
+  color: #091e42;
+  background: #fff;
+  border: 1px solid #8993a4;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.languages li {
+  margin-bottom: 15px;
+}
+
+.frameworks li {
+  margin-bottom: 15px;
+}
+
+.skills li {
+  margin-bottom: 15px;
+}
+
+.navbar-desktop li:hover {
+  transform: scale(1.1);
+  color: #f55800;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .headline {
@@ -171,6 +228,11 @@ body {
   left: 0;
 }
 
+.card-1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
 .card-1 h3 {
   width: 327px;
   height: 36px;
@@ -212,21 +274,6 @@ body {
   top: 440px;
 }
 
-.keywords li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  font-family: "Inter", serif;
-  height: 30px;
-  color: #091e42;
-  background: #fff;
-  border: 1px solid #8993a4;
-  font-weight: 400;
-  font-size: 18px;
-}
-
 .button-card1 {
   display: flex;
   flex-direction: row;
@@ -265,6 +312,11 @@ body {
   height: 386px;
 }
 
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
 .card h3 {
   position: absolute;
   font-family: "Crete Round", serif;
@@ -300,22 +352,6 @@ body {
   position: absolute;
   top: 280px;
   left: 20px;
-}
-
-.card li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  font-family: "Inter", serif;
-  height: 30px;
-  color: #fff;
-  background: #ffffff24;
-
-  /* border: 1px solid #8993a4; */
-  font-weight: 400;
-  font-size: 18px;
 }
 
 .card button {
@@ -476,10 +512,6 @@ body {
   margin-bottom: 5px;
 }
 
-.languages li {
-  margin-bottom: 15px;
-}
-
 .languages h3 {
   top: -90px;
 }
@@ -533,10 +565,6 @@ body {
   left: -20px;
 }
 
-.frameworks li {
-  margin-bottom: 15px;
-}
-
 .skills {
   display: flex;
   flex-direction: column;
@@ -572,10 +600,6 @@ body {
   top: 3px;
   left: 23px;
   border-radius: 50%;
-}
-
-.skills li {
-  margin-bottom: 15px;
 }
 
 .form {
@@ -887,6 +911,7 @@ body {
 
   .button-card1:hover {
     color: #f55800;
+    cursor: pointer;
     background: #fff5e1;
     border: 1px solid #f55800;
   }
@@ -929,6 +954,7 @@ body {
   }
 
   .card:hover button {
+    cursor: pointer;
     display: flex;
     top: 388px;
   }
@@ -1046,6 +1072,7 @@ body {
 
   .about button:hover {
     color: #f55800;
+    cursor: pointer;
     background: #fff5e1;
     border: 1px solid #f55800;
   }
@@ -1125,6 +1152,7 @@ body {
   }
 
   .form-start .start:hover {
+    cursor: pointer;
     color: #f55800;
     background: #fff5e1;
     border: 1px solid #f55800;
