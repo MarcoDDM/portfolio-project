@@ -77,6 +77,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<a href="https://www.loom.com/share/703abf94d2424bd7ba93ade5d0b74068">
+    <p>Project presentation: record your video </p>
+    <img src="https://cdn.loom.com/sessions/thumbnails/703abf94d2424bd7ba93ade5d0b74068-with-play.gif">
+  </a>
+
 - [Live Demo Link](https://marcoalmada.online/portfolio-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
