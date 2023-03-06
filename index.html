@@ -28,12 +28,12 @@
     <nav class="mobile-menu">
       <a class="close"><img src="images/cancel.png" alt=""></a>
       <ul>
-        <li><a href="#cards">Portfolio</a>
-          <hr>
-        <li><a href="#about">About</a>
-          <hr>
-        <li><a href="#form">Contact</a>
-          <hr>
+        <li><a onclick="closeMenu()" href="#works">Portfolio</a></li>
+        <hr>
+        <li><a onclick="closeMenu()" href="#about">About</a></li>
+        <hr>
+        <li><a onclick="closeMenu()" href="#form">Contact</a></li>
+        <hr>
       </ul>
     </nav>
   </header>
@@ -54,7 +54,7 @@
     </ul>
   </section>
 
-  <section class="works">
+  <section id="works" class="works">
     <h2>My Recent Works</h2>
     <img src="images/line.png">
     <div class="card-container">
@@ -158,7 +158,7 @@
     </div>
   </section>
 
-  <section class="about">
+  <section id="about" class="about">
     <h2>About Me</h2>
     <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
       work
@@ -196,7 +196,7 @@
 
   </section>
 
-  <section class="form">
+  <section id="form" class="form">
     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     <form class="form-start" action="https://formspree.io/f/mwkjeepg" method="POST">
       <input class="name" type="text" name="name" id="name" maxlength="30" placeholder="Full name" required>

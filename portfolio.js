@@ -23,3 +23,13 @@ close.addEventListener('click', () => {
     element.style.display = 'flex';
   });
 });
+
+function closeMenu() {
+  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
+
+  elements.forEach((element) => {
+    element.style.display = 'flex';
+  });
+
+  mobileMenu.style.display = 'none';
+}
