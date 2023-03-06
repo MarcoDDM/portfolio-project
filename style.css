@@ -93,8 +93,13 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  border-bottom: solid 1px;
-  border-color: white;
+}
+
+hr {
+  width: 300px;
+  border: none;
+  height: 1px;
+  background-color: #6f6c6b;
 }
 
 .close {
