@@ -13,13 +13,20 @@
   <header class="navbar">
     <a class="logo" href="#">Marco</a>
     <a class="logo-desktop" href="#">Marco Almada</a>
-    <nav>
+    <nav onclick="showMenu()">
       <img class="hamburger" src="images/hamburger.png" alt="hamburger menu">
       <ul class="navbar-desktop">
         <li>Portfolio</li>
         <li>About</li>
         <li>Contact</li>
         <li class="envelope">✉</li>
+      </ul>
+    </nav>
+    <nav class="mobile-menu">
+      <ul>
+        <li><a class="mobile-item" onclick="closeMenu()" href="#projects">Portfolio</a>
+        <li><a class="mobile-item" onclick="closeMenu()" href="#about">About</a>
+        <li><a class="mobile-item" onclick="closeMenu()" href="#form">Contact</a>
       </ul>
     </nav>
   </header>
@@ -190,6 +197,7 @@
     </ul>
   </section>
 
+  <script src="portfolio.js"></script>
 </body>
 
 </html>

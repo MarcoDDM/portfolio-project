@@ -62,6 +62,10 @@ body {
   border-radius: 8px;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .card li {
   list-style-type: none;
   display: flex;
@@ -300,8 +304,7 @@ body {
 
 .card {
   position: absolute;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) -1.25%,
       rgba(38, 38, 38, 0.9) 123%
@@ -724,7 +727,8 @@ body {
   .logo,
   .hamburger,
   .background,
-  .img-about {
+  .img-about,
+  .mobile-menu {
     display: none;
   }
 
@@ -976,8 +980,7 @@ body {
   .two {
     top: 782px;
     left: 521px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -992,8 +995,7 @@ body {
   .three {
     top: 782px;
     left: 909px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1008,8 +1010,7 @@ body {
   .four {
     top: 1255px;
     left: 135px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1024,8 +1025,7 @@ body {
   .five {
     top: 1255px;
     left: 521px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
@@ -1040,8 +1040,7 @@ body {
   .six {
     top: 1255px;
     left: 909px;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         178deg,
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
