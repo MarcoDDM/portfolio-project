@@ -2,7 +2,6 @@ const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const close = document.querySelector('.close');
 
-
 hamburger.addEventListener('click', () => {
   const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
 
@@ -12,7 +11,7 @@ hamburger.addEventListener('click', () => {
 
   mobileMenu.style.display = 'flex';
   mobileMenu.style.width = '100vw';
-  mobileMenu.style.height = '100vh'
+  mobileMenu.style.height = '100vh';
 });
 
 close.addEventListener('click', () => {
@@ -24,7 +23,7 @@ close.addEventListener('click', () => {
   });
 });
 
-function closeMenu() {
+const closeMenu = () => {
   const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
 
   elements.forEach((element) => {
@@ -32,4 +31,4 @@ function closeMenu() {
   });
 
   mobileMenu.style.display = 'none';
-}
+};
