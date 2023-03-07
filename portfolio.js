@@ -8,17 +8,15 @@ hamburger.addEventListener('click', () => {
 });
 
 close.addEventListener('click', () => {
-  mobileMenu.classList.remove('active'); // This hides the menu
-  document.body.classList.remove('noScroll'); // This enables the scrolling on the body again.
+  mobileMenu.classList.remove('active'); 
+  document.body.classList.remove('noScroll'); 
 });
 
 const menuLinks = document.querySelectorAll('.menu-link');
 
-// Iterate over the resulting array of links:
-
 menuLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    mobileMenu.classList.remove('active'); // This hides the menu
-    document.body.classList.remove('noScroll'); // This enables the scrolling on the body again.
+    mobileMenu.classList.remove('active'); 
+    document.body.classList.remove('noScroll'); 
   });
 });
