@@ -23,7 +23,7 @@ close.addEventListener('click', () => {
   });
 });
 
-let closeMenu = () => {
+function closeMenu() {
   const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
 
   elements.forEach((element) => {
@@ -31,4 +31,4 @@ let closeMenu = () => {
   });
 
   mobileMenu.style.display = 'none';
-};
+}
