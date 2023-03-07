@@ -8,15 +8,15 @@ hamburger.addEventListener('click', () => {
 });
 
 close.addEventListener('click', () => {
-  mobileMenu.classList.remove('active'); 
-  document.body.classList.remove('noScroll'); 
+  mobileMenu.classList.remove('active');
+  document.body.classList.remove('noScroll');
 });
 
 const menuLinks = document.querySelectorAll('.menu-link');
 
 menuLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    mobileMenu.classList.remove('active'); 
-    document.body.classList.remove('noScroll'); 
+    mobileMenu.classList.remove('active');
+    document.body.classList.remove('noScroll');
   });
 });
