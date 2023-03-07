@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta  name="description" content="This a portfolio to showcase some projects from the Microverse Bootcamp">
+  <meta name="description" content="This a portfolio to showcase some projects from the Microverse Bootcamp">
   <link rel="stylesheet" href="style.css" href="http://fonts.googleapis.com/css?family=Roboto">
   <title>Portfolio</title>
+  <meta name="description"
+    content="This is a portfolio project to showcase the things I'm learning on Microverse Bootcamp">
 </head>
 
 <body>
@@ -15,7 +17,6 @@
     <a class="logo" href="#">Marco</a>
     <a class="logo-desktop" href="#">Marco Almada</a>
     <nav>
-      <img class="hamburger" src="images/hamburger.png" alt="hamburger menu">
       <ul class="navbar-desktop">
         <li><a href="#works">Portfolio</a></li>
         <li><a href="#about">About</a></li>
@@ -23,12 +24,28 @@
         <li class="envelope">✉</li>
       </ul>
     </nav>
+    <!--Mobile Menu-->
+    <nav>
+      <a class="hamburger"><img src="images/hamburger.png" alt="hamburger menu" /></a>
+    </nav>
+    <nav class="mobile-menu">
+      <a class="close"><img src="images/cancel.png" alt=""></a>
+      <ul>
+        <li><a class="menu-link" href="#works">Portfolio</a></li>
+        <hr>
+        <li><a class="menu-link" href="#about">About</a></li>
+        <hr>
+        <li><a class="menu-link" href="#form">Contact</a></li>
+        <hr>
+      </ul>
+    </nav>
   </header>
 
   <section class="headline" id="headline">
     <h1>Hey There. <br> I'm Marco</h1>
     <h2>I am a Software Developer</h2>
-    <p>I can help build you a product, feature or website. Look through some of my work and experience! If you like what
+    <p>I can help build you a product, feature or website. Look through some of my work and experience! If you like
+      what
       you see and have a project you need coded, don't hesitate to contact me.</p>
     <img class="background" src="images/background.png" alt="header background">
     <ul class="social-icons">
@@ -40,13 +57,14 @@
     </ul>
   </section>
 
-  <section class="works" id="works">
+  <section id="works" class="works">
     <h2>My Recent Works</h2>
     <img src="images/line.png">
     <div class="card-container">
       <div class="card-1">
         <h3>Multi-Post Stories</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
         <ul class="keywords">
           <li>css</li>
@@ -59,7 +77,8 @@
 
       <div class="card one">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -72,7 +91,8 @@
 
       <div class="card two">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -85,7 +105,8 @@
 
       <div class="card three">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -98,7 +119,8 @@
 
       <div class="card four">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -111,7 +133,8 @@
 
       <div class="card five">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -124,7 +147,8 @@
 
       <div class="card six">
         <h3>Profesional Art Printing Data</h3>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's
           standard
         </p>
         <ul>
@@ -137,9 +161,10 @@
     </div>
   </section>
 
-  <section class="about" id="about">
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work
+    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
+      work
       and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
     <button>Get My Resume</button>
     <img class="img-about" src="images/illustration-about-me-mobile.png" alt="about background">
@@ -174,7 +199,7 @@
 
   </section>
 
-  <section class="form" id="form">
+  <section id="form" class="form">
     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     <form class="form-start" action="https://formspree.io/f/mwkjeepg" method="POST">
       <input class="name" type="text" name="name" id="name" maxlength="30" placeholder="Full name" required>
@@ -191,6 +216,7 @@
     </ul>
   </section>
 
+  <script src="portfolio.js"></script>
 </body>
 
 </html>

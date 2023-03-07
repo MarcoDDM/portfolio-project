@@ -42,6 +42,40 @@ body {
   text-decoration: none;
 }
 
+.mobile-menu li a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: white;
+  height: 24px;
+  left: 0;
+  right: 68px;
+  top: calc(50% - 24px / 2);
+  font-family: "Inter", sans-serif, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+.mobile-menu {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #3c3a39;
+}
+
+.mobile-menu.active {
+  display: flex;
+  z-index: 1;
+}
+
 .navbar a:hover {
   transform: scale(1.1);
   color: #f55800;
@@ -60,6 +94,32 @@ body {
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 375px;
+  list-style-type: none;
+  gap: 15px;
+}
+
+hr {
+  width: 300px;
+  border: none;
+  height: 1px;
+  background-color: #6f6c6b;
+}
+
+.close {
+  position: absolute;
+  top: 42px;
+  right: 34px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .card li {
@@ -714,7 +774,8 @@ body {
 
 @media (max-width: 768px) {
   a.logo-desktop,
-  ul.navbar-desktop {
+  ul.navbar-desktop,
+  .mobile-menu {
     display: none;
   }
 }
@@ -724,7 +785,8 @@ body {
   .logo,
   .hamburger,
   .background,
-  .img-about {
+  .img-about,
+  .mobile-menu {
     display: none;
   }
 
