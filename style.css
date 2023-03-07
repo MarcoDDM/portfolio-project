@@ -813,7 +813,7 @@ hr {
     top: calc(50% - 60px / 2);
   }
 
-  .navbar-desktop li {
+  .navbar-desktop li a {
     height: 20px;
     color: #fff;
     font-family: "Inter", serif;
@@ -824,6 +824,7 @@ hr {
     padding: 10px 12px;
     gap: 10px;
     width: 83px;
+    text-decoration: none;
   }
 
   .navbar-desktop .envelope {
