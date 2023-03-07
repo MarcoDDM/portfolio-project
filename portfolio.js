@@ -1,54 +1,24 @@
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const close = document.querySelector('.close');
-const portfolio = document.querySelector('.portfolio');
-const aboutMe = document.querySelector('.about-me');
-const contact = document.querySelector('.contact');
 
 hamburger.addEventListener('click', () => {
-  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
-
-  elements.forEach((element) => {
-    element.style.display = 'none';
-  });
-
-  mobileMenu.style.display = 'flex';
-  mobileMenu.style.width = '100vw';
-  mobileMenu.style.height = '100vh';
+  mobileMenu.classList.add('active');
+  document.body.classList.add('noScroll');
 });
 
 close.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
-
-  elements.forEach((element) => {
-    element.style.display = 'flex';
-  });
+  mobileMenu.classList.remove('active'); // This hides the menu
+  document.body.classList.remove('noScroll'); // This enables the scrolling on the body again.
 });
 
-portfolio.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
+const menuLinks = document.querySelectorAll('.menu-link');
 
-  elements.forEach((element) => {
-    element.style.display = 'flex';
-  });
-});
+// Iterate over the resulting array of links:
 
-aboutMe.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
-
-  elements.forEach((element) => {
-    element.style.display = 'flex';
-  });
-});
-
-contact.addEventListener('click', () => {
-  mobileMenu.style.display = 'none';
-  const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
-
-  elements.forEach((element) => {
-    element.style.display = 'flex';
+menuLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('active'); // This hides the menu
+    document.body.classList.remove('noScroll'); // This enables the scrolling on the body again.
   });
 });
