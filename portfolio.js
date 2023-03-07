@@ -23,7 +23,7 @@ close.addEventListener('click', () => {
   });
 });
 
-const closeMenu = () => {
+let closeMenu = () => {
   const elements = document.querySelectorAll('.logo, .hamburger, .headline, .works, .about, .form');
 
   elements.forEach((element) => {
