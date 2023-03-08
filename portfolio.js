@@ -28,6 +28,7 @@ const projectsData = [
     id: "0",
     class: "card-1",
     name: "Multi-Post Stories",
+    img: "images/card-featured.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     keywords: ["css", "html", "botstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -39,6 +40,7 @@ const projectsData = [
     id: "1",
     class: "card one",
     name: "Profesional Art Printing Data",
+    img: "images/card1.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -48,6 +50,7 @@ const projectsData = [
     id: "2",
     class: "card two",
     name: "Profesional Art Printing Data",
+    img: "images/card2.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -57,6 +60,7 @@ const projectsData = [
     id: "3",
     class: "card three",
     name: "Profesional Art Printing Data",
+    img: "images/card3.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -66,6 +70,7 @@ const projectsData = [
     id: "4",
     class: "card four",
     name: "Profesional Art Printing Data",
+    img: "images/card1.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -75,6 +80,7 @@ const projectsData = [
     id: "5",
     class: "card five",
     name: "Profesional Art Printing Data",
+    img: "images/card2.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -84,6 +90,7 @@ const projectsData = [
     id: "6",
     class: "card six",
     name: "Profesional Art Printing Data",
+    img: "images/card3.png",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard.",
     keywords: ["html", "bootstrap", "Ruby"],
     liveLink: "https://www.example.com/",
@@ -126,10 +133,11 @@ const showModal = (id) => {
 
     // Create the modal content elements using innerHTML
     myModal.innerHTML = `
-      <div>
-        <img src="images/cancel.png" class="closeBtn"/>
+      <div id="modal">
+        <a  class="closeBtn"><img src="images/cancel.png"/></a>
         <h1>${project.name} ${id}</h1>
         <p>${project.description}</p>
+        <img src="${project.img}" />
         <ul class="${project.keyClass}">${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
         </ul>
         <button>Prev</button>
@@ -141,8 +149,8 @@ const showModal = (id) => {
 
 // Define the closeModal function
 function closeModal() {
-  const myModal = document.getElementById("myModal");
-  myModal.style.display = "none";
+  close.classList.add("hidden");
+
 };
 
 // Attach the event listener to the "Close" button
