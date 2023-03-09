@@ -153,8 +153,8 @@ const showModal = (id) => {
       <ul>${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
       </ul>
       <div class="btns">
-        <a class="liveBtn" target:href='${project.liveLink}'>See live</a>
-        <a class="sourceBtn" href='${project.sourceLink}'>See source</a>
+        <a class="liveBtn" target="_blank" href='${project.liveLink}'>See live</a>
+        <a class="sourceBtn" target="_blank" href='${project.sourceLink}'>See source</a>
       </div>
     </div>
   `;
