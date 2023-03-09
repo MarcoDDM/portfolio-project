@@ -1259,7 +1259,7 @@ hr {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 700px;
+  max-width: 80%;
   position: relative;
 }
 
@@ -1271,6 +1271,10 @@ hr {
 #myModal p {
   font-size: 16px;
   margin-bottom: 20px;
+  width: 44%;
+  position: relative;
+  left: 54%;
+  top: 10%;
 }
 
 #myModal ul {
@@ -1288,7 +1292,8 @@ hr {
 #myModal img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  position: relative;
+  top: -53px;
 }
 
 #myModal a {
@@ -1311,7 +1316,7 @@ hr {
 
 #myModal a.closeBtn {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 10px;
   font-size: 24px;
   font-weight: bold;
