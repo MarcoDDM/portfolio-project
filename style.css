@@ -769,73 +769,6 @@ hr {
   top: 900px;
 }
 
-.myModal {
-  position: fixed;
-  display: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  background-color: white;
-  padding: 20px;
-  opacity: 1;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: opacity 0.3s ease-in-out;
-  pointer-events: none;
-}
-
-.myModal h1 {
-  position: fixed;
-  top: 0%;
-}
-
-.myModal p {
-  width: 38%;
-  height: 336px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: #344563;
-  position: fixed;
-  right: 5%;
-  top: 20%;
-}
-
-.myModal img {
-  position: relative;
-  top: 20%;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(3px);
-  z-index: 1;
-}
-
-.close {
-  display: none;
-}
-
-a.closeBtn img {
-  position: absolute;
-  top: 8.9%;
-  right: 1.9%;
-}
-
-#myModal {
-  display: none;
-}
-
 /* MOBILE */
 
 @media (max-width: 768px) {
@@ -1296,7 +1229,7 @@ a.closeBtn img {
 
   .myModal {
     width: 82.28%;
-    height: 72.24%;
+    height: 58%;
   }
 
   .myModal h1 {
@@ -1308,5 +1241,72 @@ a.closeBtn img {
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+  }
+
+  .myModal {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: white;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+
+  .myModal h1 {
+    position: fixed;
+    top: 0%;
+  }
+
+  .myModal p {
+    width: 38%;
+    height: 336px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    position: fixed;
+    right: 5%;
+    top: 20%;
+  }
+
+  .myModal img {
+    position: relative;
+    top: 20%;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+
+  .close {
+    display: none;
+  }
+
+  a.closeBtn img {
+    position: absolute;
+    top: 8.9%;
+    right: 1.9%;
+  }
+
+  #myModal {
+    display: none;
   }
 }
