@@ -11,7 +11,7 @@ body {
 
 .navbar {
   position: absolute;
-  width: 103%;
+  width: 100vw;
   height: 92px;
 
   /* Theme 3 / Neutral 2 */
@@ -179,7 +179,7 @@ hr {
   padding: 120px 24px;
   gap: 12px;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 440px;
   left: 0;
   top: 92px;
@@ -323,6 +323,18 @@ hr {
 }
 
 .keywords {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 5px;
+  height: 40px;
+  width: 316px;
+  position: absolute;
+  top: 440px;
+}
+
+.keys {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -910,7 +922,7 @@ hr {
   }
 
   .card-container {
-    width: 1156px;
+    width: 100%;
     height: 1379px;
   }
 
@@ -1077,11 +1089,11 @@ hr {
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
       ),
-      url(images/card2.png);
+      url(images/card1.png);
   }
 
   .four:hover {
-    background-image: url(images/card2.png);
+    background-image: url(images/card1.png);
   }
 
   .five {
@@ -1093,11 +1105,11 @@ hr {
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
       ),
-      url(images/card2.png);
+      url(images/card3.png);
   }
 
   .five:hover {
-    background-image: url(images/card2.png);
+    background-image: url(images/card3.png);
   }
 
   .six {
@@ -1231,5 +1243,220 @@ hr {
     list-style: none;
     top: 600px;
     left: 600px;
+  }
+}
+
+/* Default styles for the modal */
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: hsl(0deg 0% 13% / 76%);
+  backdrop-filter: blur(6px);
+}
+
+#myModal div {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 80%;
+  position: relative;
+}
+
+#myModal h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+#myModal p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 44%;
+  position: relative;
+  left: 54%;
+  top: 10%;
+  font-family: "Inter", sans-serif;
+}
+
+#myModal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  top: 17%;
+  left: 1.7%;
+}
+
+#myModal ul li {
+  border: 1px solid #b7b7b7;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
+  margin-right: 10px;
+}
+
+#myModal img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -14%;
+}
+
+#myModal a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#myModal .btns {
+  position: absolute;
+  top: 80.5%;
+  left: 54%;
+  width: 20%;
+  background: none;
+  border: none;
+  margin: 0 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#myModal .btns a.liveBtn {
+  background-color: #f55800;
+}
+
+#myModal .btns a.liveBtn:hover {
+  color: #f55800;
+  cursor: pointer;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+#myModal .btns a.sourceBtn {
+  background-color: #f55800;
+}
+
+#myModal .btns a.sourceBtn:hover {
+  color: #f55800;
+  cursor: pointer;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+#myModal a.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  #myModal {
+    width: 90%;
+    height: 90%;
+  }
+
+  #myModal div {
+    margin: 20% auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #myModal div {
+    margin: 20% auto;
+  }
+
+  #myModal h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  #myModal img {
+    top: 60px;
+  }
+
+  #myModal p {
+    width: 90%;
+    left: 21px;
+    position: absolute;
+    top: 45%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  #myModal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    top: 11%;
+  }
+
+  #myModal ul li {
+    border: 1px solid #b7b7b7;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+    margin-left: 10px;
+  }
+
+  #myModal a {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  #myModal .btns {
+    right: 5px;
+    z-index: 1;
+    font-size: 20px;
+    top: 89%;
+    width: 90%;
+    left: auto;
+  }
+
+  #myModal a.closeBtn {
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
   }
 }
