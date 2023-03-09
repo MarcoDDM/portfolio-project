@@ -334,6 +334,18 @@ hr {
   top: 440px;
 }
 
+.keys {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 5px;
+  height: 40px;
+  width: 316px;
+  position: absolute;
+  top: 440px;
+}
+
 .button-card1 {
   display: flex;
   flex-direction: row;
@@ -1252,7 +1264,6 @@ hr {
     z-index: 2;
     background-color: white;
     padding: 20px;
-    opacity: 1;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: opacity 0.3s ease-in-out;
@@ -1265,7 +1276,7 @@ hr {
   }
 
   .myModal p {
-    width: 38%;
+    width: 42%;
     height: 336px;
     font-family: "Inter";
     font-style: normal;
@@ -1332,14 +1343,15 @@ hr {
     cursor: pointer;
   }
 
-  .close {
+  .hide {
     display: none;
   }
 
-  a.closeBtn img {
+  a.closeBtn {
     position: absolute;
-    top: 5.9%;
-    right: 1.9%;
+    top: 4.9%;
+    right: 3.9%;
+    font-size: 40px;
   }
 
   #myModal {
