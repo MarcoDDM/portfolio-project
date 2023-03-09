@@ -1085,11 +1085,11 @@ hr {
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
       ),
-      url(images/card2.png);
+      url(images/card1.png);
   }
 
   .four:hover {
-    background-image: url(images/card2.png);
+    background-image: url(images/card1.png);
   }
 
   .five {
@@ -1100,11 +1100,11 @@ hr {
         rgb(0 0 0 / 40%) -1.25%,
         hsl(0deg 0% 0%) 123%
       ),
-      url(images/card2.png);
+      url(images/card3.png);
   }
 
   .five:hover {
-    background-image: url(images/card2.png);
+    background-image: url(images/card3.png);
   }
 
   .six {
@@ -1290,6 +1290,10 @@ hr {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: absolute;
+  display: flex;
+  top: 17%;
+  left: 1.7%;
 }
 
 #myModal ul li {
