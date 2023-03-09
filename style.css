@@ -1373,6 +1373,7 @@ hr {
 @media screen and (max-width: 768px) {
   #myModal {
     width: 90%;
+    height: 90%;
   }
 
   #myModal div {
@@ -1394,8 +1395,21 @@ hr {
     color: #172b4d;
   }
 
+  #myModal img {
+    top: 60px;
+  }
+
   #myModal p {
-    font-size: 14px;
+    width: 90%;
+    left: 21px;
+    position: absolute;
+    top: 45%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   #myModal ul {
@@ -1424,6 +1438,19 @@ hr {
     padding: 8px 16px;
     margin-right: 5px;
     margin-bottom: 5px;
+  }
+
+  #myModal .btns {
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+    font-size: 20px;
+    top: 89%;
+    right: 5px;
+    z-index: 1;
+    width: 90%;
+    left: auto;
   }
 
   #myModal a.closeBtn {
