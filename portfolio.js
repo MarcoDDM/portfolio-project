@@ -21,8 +21,6 @@ menuLinks.forEach((link) => {
   });
 });
 
-/*Render cards*/
-
 const projectsData = [
   { 
     id: "0",
@@ -111,13 +109,13 @@ const projectsData = [
   },
 ];
 
-// Create project section dynamically
+
 const projectsSection = document.getElementById("works");
 
 for (let i = 0; i < projectsData.length; i++) {
   const project = projectsData[i];
 
-  // Create project element
+  
   const projectElement = document.createElement("div");
   projectElement.classList.add("project");
 
@@ -133,7 +131,7 @@ for (let i = 0; i < projectsData.length; i++) {
   </div>
   `;
 
-  // Add project element to projects section
+  
   projectsSection.appendChild(projectElement);
 }
 
@@ -143,7 +141,7 @@ const showModal = (id) => {
 
   const project = projectsData[id];
 
-  // Create the modal content elements using innerHTML
+  
   myModal.innerHTML = `
     <div>
       <a class="closeBtn">&times;</a> 
@@ -159,12 +157,12 @@ const showModal = (id) => {
     </div>
   `;
 
-  // Add event listener to close button
+  
   const closeBtn = myModal.querySelector(".closeBtn");
   closeBtn.addEventListener("click", closeModal);
 };
 
-// Define the closeModal function
+
 function closeModal() {
   const myModal = document.getElementById("myModal");
   myModal.style.display = "none";
@@ -172,7 +170,7 @@ function closeModal() {
 
 var modal = document.getElementById('myModal');
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
