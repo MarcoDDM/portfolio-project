@@ -1297,9 +1297,15 @@ hr {
 }
 
 #myModal ul li {
-  display: inline-block;
+  border: 1px solid #b7b7b7;
+  padding: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
   margin-right: 10px;
-  font-size: 14px;
 }
 
 #myModal img {
