@@ -1238,123 +1238,124 @@ hr {
     top: 600px;
     left: 600px;
   }
+}
+/* Default styles for the modal */
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: hsl(0deg 0% 13% / 76%);
+  backdrop-filter: blur(6px);
+}
 
-  .myModal {
-    width: 82.28%;
-    height: 58%;
+#myModal div {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 700px;
+  position: relative;
+}
+
+#myModal h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#myModal p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#myModal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myModal ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+#myModal img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#myModal a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#myModal a.liveBtn {
+  background-color: #f55800;
+}
+
+#myModal a.sourceBtn {
+  background-color: #f55800;
+}
+
+#myModal a.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  #myModal div {
+    margin: 20% auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #myModal div {
+    margin: 30% auto;
   }
 
-  .myModal h1 {
-    width: 1056px;
-    height: 40px;
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172b4d;
+  #myModal h1 {
+    font-size: 20px;
   }
 
-  .myModal {
-    position: fixed;
-    display: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: opacity 0.3s ease-in-out;
-    pointer-events: none;
+  #myModal p {
+    font-size: 14px;
   }
 
-  .myModal h1 {
-    position: fixed;
-    top: 0%;
+  #myModal ul li {
+    font-size: 12px;
+    margin-right: 5px;
   }
 
-  .myModal p {
-    width: 42%;
-    height: 336px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #344563;
-    position: fixed;
-    right: 5%;
-    top: 20%;
+  #myModal a {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
 
-  .myModal img {
-    position: relative;
-    top: 20%;
-  }
-
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(3px);
+  #myModal a.closeBtn {
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
     z-index: 1;
-  }
-
-  .liveBtn {
-    position: absolute;
-    top: 82%;
-    left: 52%;
-    text-decoration: none;
-    background-color: #f55800;
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    border: none;
-    color: white;
-    padding: 10px 50px 10px 10px;
-    text-align: left;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  .sourceBtn {
-    position: absolute;
-    top: 82%;
-    right: 25%;
-    text-decoration: none;
-    background-color: #f55800;
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    border: none;
-    color: white;
-    padding: 10px 50px 10px 10px;
-    text-align: left;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  .hide {
-    display: none;
-  }
-
-  a.closeBtn {
-    position: absolute;
-    top: 4.9%;
-    right: 3.9%;
-    font-size: 40px;
-  }
-
-  #myModal {
-    display: none;
   }
 }
