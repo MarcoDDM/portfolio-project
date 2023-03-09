@@ -791,7 +791,7 @@ hr {
 }
 
 .myModal p {
-  width: 424px;
+  width: 38%;
   height: 336px;
   font-family: "Inter";
   font-style: normal;
@@ -801,6 +801,11 @@ hr {
   color: #344563;
   position: fixed;
   right: 5%;
+  top: 20%;
+}
+
+.myModal img {
+  position: relative;
   top: 20%;
 }
 
