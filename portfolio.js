@@ -137,43 +137,45 @@ for (let i = 0; i < projectsData.length; i++) {
   projectsSection.appendChild(projectElement);
 }
 
-// Define the showModal function
 const showModal = (id) => {
   const myModal = document.getElementById("myModal");
   myModal.style.display = "flex";
 
   const project = projectsData[id];
 
-    // Create the modal content elements using innerHTML
-    myModal.innerHTML = `
-      <div>
-        <a class="closeBtn">&times;</a>
-        <h1>${project.name} ${id}</h1>
-        <p>${project.descriptionPopUp}</p>
-        <img src="${project.img}" />
-        <ul>${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
-        </ul>
+  // Create the modal content elements using innerHTML
+  myModal.innerHTML = `
+    <div>
+      <a class="closeBtn">&times;</a> 
+      <h1>${project.name} ${id}</h1>
+      <p>${project.descriptionPopUp}</p>
+      <img src="${project.img}" />
+      <ul>${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
+      </ul>
+      <div class="btns">
         <a class="liveBtn" href='${project.liveLink}'>See live</a>
         <a class="sourceBtn" href='${project.sourceLink}'>See source</a>
       </div>
-      </div>
-    `;
-  };
+    </div>
+  `;
+
+  // Add event listeners to close modal when outside is clicked
+  const modalContainer = myModal.firstElementChild;
+  modalContainer.addEventListener("click", (event) => {
+    if (event.target !== modalContainer) {
+      closeModal();
+    }
+  });
 
 
+  // Add event listener to close button
+  const closeBtn = myModal.querySelector(".closeBtn");
+  closeBtn.addEventListener("click", closeModal);
+};
 
 // Define the closeModal function
 function closeModal() {
   const myModal = document.getElementById("myModal");
   myModal.style.display = "none";
-
 };
-
-
-// Attach the event listener to the "Close" button
-const closeBtn = document.querySelector("closeBtn");
-closeBtn.addEventListener("click", closeModal);
-
- 
-
 

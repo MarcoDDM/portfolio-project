@@ -1264,8 +1264,16 @@ hr {
 }
 
 #myModal h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
 }
 
 #myModal p {
@@ -1275,6 +1283,7 @@ hr {
   position: relative;
   left: 54%;
   top: 10%;
+  font-family: "Inter", sans-serif;
 }
 
 #myModal ul {
@@ -1293,7 +1302,7 @@ hr {
   max-width: 100%;
   height: auto;
   position: relative;
-  top: -53px;
+  top: -14%;
 }
 
 #myModal a {
@@ -1306,11 +1315,23 @@ hr {
   margin-bottom: 10px;
 }
 
-#myModal a.liveBtn {
+#myModal .btns {
+  position: absolute;
+  top: 80.5%;
+  left: 54%;
+  width: 20%;
+  background: none;
+  border: none;
+  margin: 0 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#myModal .btns a.liveBtn {
   background-color: #f55800;
 }
 
-#myModal a.sourceBtn {
+#myModal .btns a.sourceBtn {
   background-color: #f55800;
 }
 
