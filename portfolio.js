@@ -145,7 +145,7 @@ const showModal = (id) => {
   myModal.innerHTML = `
     <div>
       <a class="closeBtn">&times;</a> 
-      <h1>${project.name} ${id}</h1>
+      <h1>${project.name}</h1>
       <p>${project.descriptionPopUp}</p>
       <img src="${project.img}" />
       <ul>${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
