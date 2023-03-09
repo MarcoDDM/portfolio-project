@@ -1296,13 +1296,49 @@ hr {
     z-index: 1;
   }
 
+  .liveBtn {
+    position: absolute;
+    top: 82%;
+    left: 52%;
+    text-decoration: none;
+    background-color: #f55800;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 50px 10px 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .sourceBtn {
+    position: absolute;
+    top: 82%;
+    right: 25%;
+    text-decoration: none;
+    background-color: #f55800;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 50px 10px 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
   .close {
     display: none;
   }
 
   a.closeBtn img {
     position: absolute;
-    top: 8.9%;
+    top: 5.9%;
     right: 1.9%;
   }
 

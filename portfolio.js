@@ -140,8 +140,8 @@ const showModal = (id) => {
         <img src="${project.img}" />
         <ul class="${project.keyClass}">${project.keywords.map((keyword) => `<li>${keyword}</li>`).join('')}
         </ul>
-        <button>Prev</button>
-        <button>Next</button>
+        <a class="liveBtn" href='${project.liveLink}'>See live</a>
+        <a class="sourceBtn" href='${project.sourceLink}'>See source</a>
       </div>
     `;
   };
