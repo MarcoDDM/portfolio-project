@@ -1331,8 +1331,21 @@ hr {
   background-color: #f55800;
 }
 
+#myModal .btns a.liveBtn:hover {
+  color: #f55800;
+  cursor: pointer;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
 #myModal .btns a.sourceBtn {
   background-color: #f55800;
+}
+#myModal .btns a.sourceBtn:hover {
+  color: #f55800;
+  cursor: pointer;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 #myModal a.closeBtn {
