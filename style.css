@@ -11,7 +11,7 @@ body {
 
 .navbar {
   position: absolute;
-  width: 103%;
+  width: 100vw;
   height: 92px;
 
   /* Theme 3 / Neutral 2 */
@@ -179,7 +179,7 @@ hr {
   padding: 120px 24px;
   gap: 12px;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 440px;
   left: 0;
   top: 92px;
@@ -1372,7 +1372,7 @@ hr {
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   #myModal {
-    width: 94%;
+    width: 90%;
   }
 
   #myModal div {
