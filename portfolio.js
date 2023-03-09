@@ -159,15 +159,6 @@ const showModal = (id) => {
     </div>
   `;
 
-  // Add event listeners to close modal when outside is clicked
-  const modalContainer = myModal.firstElementChild;
-  modalContainer.addEventListener("click", (event) => {
-    if (event.target !== modalContainer) {
-      closeModal();
-    }
-  });
-
-
   // Add event listener to close button
   const closeBtn = myModal.querySelector(".closeBtn");
   closeBtn.addEventListener("click", closeModal);
@@ -178,4 +169,13 @@ function closeModal() {
   const myModal = document.getElementById("myModal");
   myModal.style.display = "none";
 };
+
+var modal = document.getElementById('myModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
