@@ -215,7 +215,6 @@ emailInput.addEventListener('input', () => {
 const nameInpt = document.getElementById('name');
 const emailInpt = document.getElementById('email');
 const messageInpt = document.getElementById('message');
-const formStart = document.querySelector('.form-start');
 
 // Load data from local storage, if available
 const savedData = localStorage.getItem('formData');
