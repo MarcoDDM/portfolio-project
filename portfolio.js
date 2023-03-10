@@ -210,3 +210,28 @@ emailInput.addEventListener('input', () => {
     }
   }
 });
+
+// Get the input fields and the form
+const nameInpt = document.getElementById('name');
+const emailInpt = document.getElementById('email');
+const messageInpt = document.getElementById('message');
+const formStart = document.querySelector('.form-start');
+
+// Load data from local storage, if available
+const savedData = localStorage.getItem('formData');
+if (savedData) {
+  const { name, email, message } = JSON.parse(savedData);
+  nameInpt.value = name;
+  emailInpt.value = email;
+  messageInpt.value = message;
+}
+
+// Save form data to local storage on input change
+form.addEventListener('input', () => {
+  const formData = {
+    name: nameInpt.value,
+    email: emailInpt.value,
+    message: messageInpt.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
