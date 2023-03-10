@@ -211,11 +211,9 @@ emailInput.addEventListener('input', () => {
   }
 });
 
-
 const nameInpt = document.getElementById('name');
 const emailInpt = document.getElementById('email');
 const messageInpt = document.getElementById('message');
-
 
 const savedData = localStorage.getItem('formData');
 if (savedData) {
@@ -224,7 +222,6 @@ if (savedData) {
   emailInpt.value = email;
   messageInpt.value = message;
 }
-
 
 form.addEventListener('input', () => {
   const formData = {
