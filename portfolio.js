@@ -174,21 +174,21 @@ projects.forEach((project) => {
   });
 });
 
-// Get the form and submit button elements
+
 const form = document.querySelector('.form-start');
 const submitBtn = document.querySelector('.start');
 
-// Get the email input field
+
 const emailInput = document.querySelector('#email');
 
-// Add a submit event listener to the form
+
 form.addEventListener('submit', (event) => {
-  // Prevent the form from submitting
+  
   event.preventDefault();
 
-  // Check if the email is in lowercase
+  
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    // Show an error message below the email input if not in lowercase
+    
     if (!form.querySelector('.error-message')) {
       const errorMessage = document.createElement('p');
       errorMessage.textContent = 'Email address must be in lowercase.';
@@ -196,27 +196,27 @@ form.addEventListener('submit', (event) => {
       errorMessage.style.color = 'red';
       emailInput.parentNode.insertBefore(errorMessage, emailInput.nextElementSibling);
 
-      // Move the submit button 65px below
+      
       submitBtn.style.marginTop = '65px';
 
-      // Disable the submit button
+      
       submitBtn.disabled = true;
     }
   } else {
-    // Submit the form if the email is in lowercase
+    
     form.submit();
   }
 });
 
-// Add an input event listener to the email input field
+
 emailInput.addEventListener('input', () => {
   if (emailInput.value === emailInput.value.toLowerCase()) {
-    // Remove the error message if present
+    
     const errorMessage = form.querySelector('.error-message');
     if (errorMessage) {
       errorMessage.remove();
 
-      // Reset the submit button margin and re-enable it
+      
       submitBtn.style.marginTop = '';
       submitBtn.disabled = false;
     }
