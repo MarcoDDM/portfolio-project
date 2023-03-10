@@ -173,3 +173,40 @@ projects.forEach((project) => {
     showModal(project.dataset.id);
   });
 });
+
+const form = document.querySelector('.form-start');
+const submitBtn = document.querySelector('.start');
+
+const emailInput = document.querySelector('#email');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    if (!form.querySelector('.error-message')) {
+      const errorMessage = document.createElement('p');
+      errorMessage.textContent = 'Email address must be in lowercase.';
+      errorMessage.classList.add('error-message');
+      errorMessage.style.color = 'red';
+      emailInput.parentNode.insertBefore(errorMessage, emailInput.nextElementSibling);
+
+      submitBtn.style.marginTop = '65px';
+
+      submitBtn.disabled = true;
+    }
+  } else {
+    form.submit();
+  }
+});
+
+emailInput.addEventListener('input', () => {
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    const errorMessage = form.querySelector('.error-message');
+    if (errorMessage) {
+      errorMessage.remove();
+
+      submitBtn.style.marginTop = '';
+      submitBtn.disabled = false;
+    }
+  }
+});
