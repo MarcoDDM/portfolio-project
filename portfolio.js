@@ -210,3 +210,24 @@ emailInput.addEventListener('input', () => {
     }
   }
 });
+
+const nameInpt = document.getElementById('name');
+const emailInpt = document.getElementById('email');
+const messageInpt = document.getElementById('message');
+
+const savedData = localStorage.getItem('formData');
+if (savedData) {
+  const { name, email, message } = JSON.parse(savedData);
+  nameInpt.value = name;
+  emailInpt.value = email;
+  messageInpt.value = message;
+}
+
+form.addEventListener('input', () => {
+  const formData = {
+    name: nameInpt.value,
+    email: emailInpt.value,
+    message: messageInpt.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
